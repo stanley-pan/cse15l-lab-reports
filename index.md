@@ -1,3 +1,12 @@
-Hello World
+# index.md
 
-This is a text.
+## index markdown that contains text.
+
+*This is italics*
+
+**AND THIS IS BOLD**
+
+> BLOCKQUOTE: blockquote text
+> ANOTHER ONE
+> ANOTHER ONE
+> ANOTHER ONE
