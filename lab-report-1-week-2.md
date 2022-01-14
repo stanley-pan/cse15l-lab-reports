@@ -1,6 +1,6 @@
 # Lab Report 1 - Remote Access
 
-# **Tutorial: How to Log Into a Course-Specific Account with `ieng6`**
+# **Tutorial: How to Log Into a Course-Specific Account with ieng6**
 *Stanley Pan    |    1/14/22*
 
 Hello everyone, and future self! Today, we will cover how to use `ieng6` as a method of remote access for any course-specific accounts. 
@@ -57,7 +57,7 @@ Use Ctrl-D or type `exit` in the terminal to exit.
 
 ***
 
-## **Step 4: Moving Files with `scp`**
+## **Step 4: Moving Files with scp**
 
 An extremely important command is `scp`, which copies files from your computer to the server. Note that `scp` is ran on *only the client*, not on the server (`ieng6`).
 
