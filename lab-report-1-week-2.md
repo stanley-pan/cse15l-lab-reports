@@ -53,6 +53,12 @@ Useful commands:
 - `cp /home/linux/ieng6/cs15lwi22/cs15lwi22---`, where the hyphens are your username
 - `cat <directory>` with the same directory above
 
+![pwd](pwd.png)
+*`pwd` is a useful command that shows the current directory!*
+
+![lslat](lslat.png)
+*Example of `ls -lat` command*
+
 Use Ctrl-D or type `exit` in the terminal to exit.
 
 ***
@@ -122,6 +128,10 @@ ex: `javac findLocation.java; java findLocation`
 * Copy-pasting common commands
 * Having a clipboard of commonly - used commands
 * Using the up arrow for previously used commands
+
+Example of using *a lot of commands*:
+
+![commands](commands.png)
 
 Thank you for reading!
 ***
