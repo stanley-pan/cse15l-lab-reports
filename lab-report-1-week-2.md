@@ -134,4 +134,3 @@ Example of using *a lot of commands*:
 ![commands](commands.png)
 
 Thank you for reading!
-***
