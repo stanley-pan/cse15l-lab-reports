@@ -26,27 +26,26 @@ In this first example, **underlying bug was revealed by the symptoms of the fail
 
 In other words, the only way to detect if there was an underlying problem in the code was to first check if such problem-inducing inputs can cause an issue, where in this case the infinite loop between `-1` and `42` was the resulting symptom from that input. 
 
-It reveals that there is an underlying issue *(a bug!)* with the code that causes these symptoms.
+It reveals that there is an underlying issue *(a bug!)* with the code that causes these symptoms, which I tried to prevent by checking for negative values
 ***
 ## **Implementation of Second Test**
 
 ![change 2](change2.png)
 
-[Error-Causing Test: (Link)](https://github.com/stanley-pan/markdown-parse/commit/b89275c34e891cbf7670f57f577684d5734c237f#diff-c4d343f38cf62ed2fa12aa0d52021ed9da6fca82b64a80fec22a750f40e114b1)
+[Error-Causing Test: (Link)](https://github.com/stanley-pan/markdown-parse/commit/8fc6a30b39fa25b73da974c508389191bb4e3d75#diff-72d0164ca2d60c8d0fdc3b1a93d3e1a746eb8532639f111eda62faf046aa6f92)
 
 ### **Output/Symptom of the Error:**
 
 ```
-stanleypan@Stanleys-MacBook-Air markdown-parse % javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java
-MarkdownParseTest.java:17: error: unreported exception IOException; must be caught or declared to be thrown
-            String contents = Files.readString(fileName);
-                                              ^
-1 error
+2) getLinks2(MarkdownParseTest)
+java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 20
+        at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4601)
+        at java.base/java.lang.String.substring(String.java:2704)
+        at MarkdownParse.getLinks(MarkdownParse.java:32)
+        at MarkdownParseTest.getLinks2(MarkdownParseTest.java:26)
 ```
 
-In this second example, the JUnit tester was implemented in order to improve efficiency with testing, and tried to use the markdown files as the test. *However, implemented the tester ended up being part of one of the tests as well.* **In attempt to fix our bug, we found another bug!**
-
-The bug's symptoms were indicated by the error messages caused by implementing those testing methods, saying that those methods must be caught/thrown. As a result, the bug was then detected *(we did not throw I/O Exception for the method)*.
+In this second example, the bug was likely due to the negative index that would be returned by the IndexOf() method. The bug's symptoms were indicated by the index out of bounds error, indicating that String would not be found from the test file, but continue running. This time, we checked after each indexOf() method.
 
 ***
 
