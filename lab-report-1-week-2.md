@@ -14,11 +14,11 @@ The first step is downloading and installing Microsoft Visual Studio Code *(or V
 
 Go to the [Visual Studio Code](https://code.visualstudio.com) website, and follow the steps in the website for download. Keep in mind that you should download it for your respective operating systems, like MacOS or Windows. In the example below, it is a MacOS download.
 
-![vscode download](VSCodeDownload.png)
+![vscode download](labreport1pics/VSCodeDownload.png)
 
 After downloading VSCode and the continuing on the following setup, you should be able to open the application and see something **similar to this**:
 
-![vscode](VSCode.png)
+![vscode](labreport1pics/VSCode.png)
 
 ***
 ## **Step 2: SSH and Remotely Connecting**
@@ -39,7 +39,7 @@ Again, the hyphens are where you put in your own login information.
 
 If it is your first time connecting to the server, you will likely be asked if you want to continue connect, which you should say yes (by typing yes into the terminal). Then, you will see this:
 
-![login](login.png)
+![login](labreport1pics/login.png)
 
 From the terminal, it will show that you have successfully connected to a remote computer.
 
@@ -53,10 +53,10 @@ Useful commands:
 - `cp /home/linux/ieng6/cs15lwi22/cs15lwi22---`, where the hyphens are your username
 - `cat <directory>` with the same directory above
 
-![pwd](pwd.png)
+![pwd](labreport1pics/pwd.png)
 *`pwd` is a useful command that shows the current directory!*
 
-![lslat](lslat.png)
+![lslat](labreport1pics/lslat.png)
 *Example of `ls -lat` command*
 
 Use Ctrl-D or type `exit` in the terminal to exit.
@@ -88,13 +88,13 @@ Lastly, use `ls` to check if the file is there.
 
 Go back to the **client**, and type `ssh-keygen` into the terminal:
 
-![keygen1](keygen1.png)
+![keygen1](labreport1pics/keygen1.png)
 
 You will be prompted to enter a file for where to save the key, and you should say it in the same directory written in parentheses above. For my case, it would be `/Users/stanleypan/.ssh/id_rsa`
 
 Afterwards, it will prompt you to create a passphrase. The point of this step is to leave the prompt blank, as we want to make it easier to login:
 
-![keygen2](keygen2.png)
+![keygen2](labreport1pics/keygen2.png)
 
 To leave it empty, just press enter to continue. It will then ask you to enter the same passcode, and just press enter again.
 
@@ -131,6 +131,6 @@ ex: `javac findLocation.java; java findLocation`
 
 Example of using *a lot of commands*:
 
-![commands](commands.png)
+![commands](labreport1pics/commands.png)
 
 Thank you for reading!

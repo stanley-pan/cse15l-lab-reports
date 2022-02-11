@@ -1,7 +1,7 @@
 # Lab Report 2: When Tests Accumulate
 
 ## **Implementation of First Test**
-![change 1](change1.png)
+![change 1](labreport2pics/change1.png)
 
 [Error-Causing Test: (Link)](https://github.com/stanley-pan/markdown-parse/commit/ba15ad6241309afa02d51c3a448cc58846177004#diff-d902b3a6dba925548b7ea18ffb80dd0c28f1bc45f1d738a5da414273711a4409)
 
@@ -30,7 +30,7 @@ It reveals that there is an underlying issue *(a bug!)* with the code that cause
 ***
 ## **Implementation of Second Test**
 
-![change 2](change2.png)
+![change 2](labreport2pics/change2.png)
 
 [Error-Causing Test: (Link)](https://github.com/stanley-pan/markdown-parse/commit/8fc6a30b39fa25b73da974c508389191bb4e3d75#diff-72d0164ca2d60c8d0fdc3b1a93d3e1a746eb8532639f111eda62faf046aa6f92)
 
@@ -51,11 +51,11 @@ In this second example, the bug was likely due to the negative index that would 
 
 ## **Implementation of Third Test**
 First Change:
-![change 3](change3.png)
+![change 3](labreport2pics/change3.png)
 
 But then quickly changed to: 
 
-![change 4](change4.png)
+![change 4](labreport2pics/change4.png)
 
 [Error-Causing Test: (Link)](https://github.com/stanley-pan/markdown-parse/commit/ba15ad6241309afa02d51c3a448cc58846177004#diff-c1ee2d48f5f64b4463a98907818b5846f49cc9dd67f88882a8b551106ec320fb)
 
