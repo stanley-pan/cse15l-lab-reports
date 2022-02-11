@@ -1,4 +1,4 @@
-# Lab Report 3: Build and Run Automation
+# Lab Report 3: Streamlining ssh Configuration
 
 At first, I did not have the .ssh file on my home directly, so I had to create it first. To do so, I used my terminal and put `nano .ssh/config` to create the file and put in the command given in the prompt.
 
@@ -14,3 +14,6 @@ Afterwards, I was able to log into ieng6 without typing the entire command, maki
 
 ![sshlogin](labreport3pics/sshlogin.png)
 
+Lastly, I tried an scp command with the alias to test the efficiency of it.
+
+![scptest](labreport3pics/scptest.png)
