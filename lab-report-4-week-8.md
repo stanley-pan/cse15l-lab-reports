@@ -8,8 +8,10 @@
 
 ### *My Test:*
 
-![mysnippet1](labreport4pics/snippet1.png)
-Passed the first test.
+![snippet1](labreport4pics/snippet1.png)
+
+### *My Result*
+![myresult1](labreport4pics/myresult1.png)
 
 ### *Peer Result*
 ![peersnippet1](labreport4pics/peersnippet1.png)
@@ -21,6 +23,9 @@ To fix the issue with back ticks, we can try to search the program for any back 
 ### *My Test:*
 
 ![mysnippet2](labreport4pics/snippet2.png)
+
+### *My Result*
+![myresult2](labreport4pics/myresult2.png)
 
 ### *Peer Result*
 ![peersnippet2](labreport4pics/peersnippet2.png)
