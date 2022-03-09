@@ -6,7 +6,8 @@
 ***
 ## **Snippet 1:**
 
-### *My Test:*
+### *My Test/Expected Outcome:*
+![expected1](labreport4pics/expected1.png)
 
 ![snippet1](labreport4pics/snippet1.png)
 
